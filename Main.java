@@ -23,7 +23,7 @@ public static void main(String[] args) {
 		 System.out.println("Email valido : " + dueno.tieneEmailValido());
 		 // ── Integrante 3: Consulta ───────────────────────────────
 		 Consulta consulta = new Consulta("15/03/2025",
-		 "Revision general",
+		 " Revision general",
 		"Animal saludable",
 		45.0, false);
 		 System.out.println("\n" + consulta.toString());
