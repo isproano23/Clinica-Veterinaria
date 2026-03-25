@@ -11,7 +11,6 @@ public class Mascota {
 		this.nombre = nombre;
 		this.especie = especie;
 		this.raza = raza;
-		
 		this.peso = peso;
 	}
 

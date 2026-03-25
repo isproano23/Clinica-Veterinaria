@@ -1,16 +1,17 @@
+
+
 public class Main {
-    
+  
 public static void main(String[] args) {
 		 System.out.println("======================================");
 		 System.out.println(" Sistema - Clinica Veterinaria ");
 		 System.out.println("======================================");
 		 // ── Integrante 1: Mascota ────────────────────────────────
-		 Mascota mascota = new Mascota("Firulais", "Perro",
-		 "Labrador", 4, 25.0);
+		 Mascota mascota = new Mascota("Firulais", "Perro",4,"Labrador",25.0);
 		 System.out.println("\n" + mascota.toString());
 		 System.out.println("Es adulto : " + mascota.esAdulto());
 		 System.out.println("Peso normal : "
-		 + mascota.estaEnPesoNormal(20.0, 30.0));
+		 + mascota.esPesoNormal(20.0, 30.0));
 
 		 // ── Integrante 2: Dueno ──────────────────────────────────
 		 Dueno dueno = new Dueno("Carlos", "Perez",
@@ -29,14 +30,8 @@ public static void main(String[] args) {
 		 System.out.println("Categoria costo : "
 		 + consulta.calcularCategoriaCosto());
 		 System.out.println("Es critica : " + consulta.esCritica());
-		 // ── Integrante 4 (opcional): Veterinario ─────────────────
-		 // Si el grupo NO tiene Integrante 4, comenta las 4 lineas de abajo
-		 Veterinario vet = new Veterinario("Ana", "Gomez",
-		 "VET-001", "Cirugia", 7);
-		 System.out.println("\n" + vet.toString());
-		 System.out.println("Es especialista : " + vet.esEspecialista());
-		 System.out.println("\n=====================================");
-		 }
+}	 
+		 
 }
 		 
 
